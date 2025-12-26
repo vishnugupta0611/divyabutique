@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Services - Divya Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-nav {
+            padding: 100px 5% 20px;
+            text-align: center;
+        }
+        .back-nav a {
+            color: var(--primary-gold);
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+        .back-nav a:hover {
+            transform: translateX(-5px);
+        }
+        .category-section {
+            margin-bottom: 4rem;
+        }
+        .category-title {
+            font-size: 2rem;
+            color: var(--primary-gold);
+            margin-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+        }
+        .category-title::before {
+            content: '✨';
+            margin-right: 0.5rem;
+        }
+        .category-title::after {
+            content: '✨';
+            margin-left: 0.5rem;
+        }
+        .clothes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">DIVYA BOUTIQUE</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="mehndi.html">Mehndi</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="back-nav">
+        <a href="index.html">← Back to Home</a>
+    </div>
+
+    <section class="section">
+        <h1 class="section-title">Our Clothing Services</h1>
+        <p class="section-subtitle">Premium stitching with love and care ✨</p>
+
+        <!-- Blouse Designs -->
+        <div class="category-section">
+            <h2 class="category-title">Designer Blouses</h2>
+            <div class="clothes-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Red-Zari-work-Embroidered-Blouse-Sleeves.webp" alt="Back Neck Blouse">
+                    </div>
+                    <div class="service-content">
+                        <h3>Back Neck Design Blouse</h3>
+                        <p>Stunning back neck patterns with intricate embroidery and latest designs</p>
+                        <span class="price-tag">₹500 - ₹1200</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/traditional-indian-clothing-photography-festive-fashion-photography-for-indian-clothing-brands-192_orig.jpg" alt="Embroidery Blouse">
+                    </div>
+                    <div class="service-content">
+                        <h3>Heavy Embroidery Blouse</h3>
+                        <p>Beautiful embroidery work with thread, sequins, and beads</p>
+                        <span class="price-tag">₹800 - ₹1800</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Blue-Maggam-Work-Blouse-With-Zardozi-and-stone-work.webp" alt="Bridal Blouse">
+                    </div>
+                    <div class="service-content">
+                        <h3>Bridal Blouse</h3>
+                        <p>Luxurious bridal blouses with heavy zari, stone, and mirror work</p>
+                        <span class="price-tag">₹2000 - ₹5000</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/professional-photography-for-indian-kurtis-and-lehenga-and-suits-43_orig.jpg" alt="Party Wear Blouse">
+                    </div>
+                    <div class="service-content">
+                        <h3>Party Wear Blouse</h3>
+                        <p>Contemporary designs perfect for parties and special occasions</p>
+                        <span class="price-tag">₹700 - ₹1500</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Gemini_Generated_Image_alfdjxalfdjxalfd.png" alt="Sleeve Design Blouse">
+                    </div>
+                    <div class="service-content">
+                        <h3>Latest Sleeve Designs</h3>
+                        <p>Trendy sleeve patterns - puff, bell, cold shoulder, and more</p>
+                        <span class="price-tag">₹600 - ₹1400</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Gemini_Generated_Image_lisz0elisz0elisz.png" alt="Simple Blouse">
+                    </div>
+                    <div class="service-content">
+                        <h3>Simple Daily Wear Blouse</h3>
+                        <p>Comfortable and elegant blouses for everyday wear</p>
+                        <span class="price-tag">₹400 - ₹800</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kurti Designs -->
+        <div class="category-section">
+            <h2 class="category-title">Kurtis & Kurtas</h2>
+            <div class="clothes-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/libas-blog_15-07_01.webp" alt="Casual Kurti">
+                    </div>
+                    <div class="service-content">
+                        <h3>Casual Daily Wear Kurti</h3>
+                        <p>Comfortable kurtis for everyday wear with simple designs</p>
+                        <span class="price-tag">₹500 - ₹900</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/0001638_rayon-long-kurti-with-gold-print_510.jpeg" alt="Festive Kurta">
+                    </div>
+                    <div class="service-content">
+                        <h3>Festive Designer Kurta</h3>
+                        <p>Elegant kurtas with beautiful detailing for festivals and celebrations</p>
+                        <span class="price-tag">₹800 - ₹1600</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/mceu_86469568111725433066319.png" alt="Office Wear Kurti">
+                    </div>
+                    <div class="service-content">
+                        <h3>Office Wear Kurti</h3>
+                        <p>Professional and stylish kurtis perfect for office wear</p>
+                        <span class="price-tag">₹600 - ₹1200</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/Gemini_Generated_Image_hswhtghswhtghswh.png" alt="Anarkali Kurta">
+                    </div>
+                    <div class="service-content">
+                        <h3>Anarkali Style Kurta</h3>
+                        <p>Flowing Anarkali designs with beautiful flare and embroidery</p>
+                        <span class="price-tag">₹1000 - ₹2000</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/Gemini_Generated_Image_iz1zjhiz1zjhiz1z.png" alt="A-Line Kurti">
+                    </div>
+                    <div class="service-content">
+                        <h3>A-Line Kurti</h3>
+                        <p>Classic A-line cut with modern patterns and prints</p>
+                        <span class="price-tag">₹600 - ₹1100</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/Gemini_Generated_Image_kss9fokss9fokss9.png" alt="Long Kurta">
+                    </div>
+                    <div class="service-content">
+                        <h3>Long Kurta</h3>
+                        <p>Floor-length kurtas with elegant designs and comfortable fit</p>
+                        <span class="price-tag">₹800 - ₹1500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Salwar Suits -->
+        <div class="category-section">
+            <h2 class="category-title">Salwar Suits</h2>
+            <div class="clothes-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/Gemini_Generated_Image_uiyflquiyflquiyf.png" alt="Traditional Salwar">
+                    </div>
+                    <div class="service-content">
+                        <h3>Traditional Salwar Suit</h3>
+                        <p>Classic salwar kameez with traditional patterns and embroidery</p>
+                        <span class="price-tag">₹700 - ₹1500</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Gemini_Generated_Image_nu9zxrnu9zxrnu9z.png" alt="Punjabi Suit">
+                    </div>
+                    <div class="service-content">
+                        <h3>Punjabi Suit</h3>
+                        <p>Vibrant Punjabi suits with beautiful phulkari and embroidery work</p>
+                        <span class="price-tag">₹900 - ₹1800</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Gemini_Generated_Image_p7xfvop7xfvop7xf.png" alt="Anarkali Suit">
+                    </div>
+                    <div class="service-content">
+                        <h3>Anarkali Suit</h3>
+                        <p>Elegant Anarkali style salwar suits for special occasions</p>
+                        <span class="price-tag">₹1200 - ₹2500</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/generated-image (3).png" alt="Patiala Suit">
+                    </div>
+                    <div class="service-content">
+                        <h3>Patiala Suit</h3>
+                        <p>Comfortable Patiala style with pleated salwar and short kameez</p>
+                        <span class="price-tag">₹800 - ₹1600</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/generated-image (4).png" alt="Churidar Suit">
+                    </div>
+                    <div class="service-content">
+                        <h3>Churidar Suit</h3>
+                        <p>Fitted churidar with straight or A-line kameez designs</p>
+                        <span class="price-tag">₹700 - ₹1400</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/libas-blog_15-07_01.webp" alt="Palazzo Suit">
+                    </div>
+                    <div class="service-content">
+                        <h3>Palazzo Suit</h3>
+                        <p>Modern palazzo style with short or long kameez</p>
+                        <span class="price-tag">₹900 - ₹1700</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Petticoats & Others -->
+        <div class="category-section">
+            <h2 class="category-title">Petticoats & Alterations</h2>
+            <div class="clothes-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/0001638_rayon-long-kurti-with-gold-print_510.jpeg" alt="Saree Petticoat">
+                    </div>
+                    <div class="service-content">
+                        <h3>Saree Petticoat</h3>
+                        <p>Comfortable cotton and satin petticoats for perfect saree drape</p>
+                        <span class="price-tag">₹300 - ₹600</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Red-Zari-work-Embroidered-Blouse-Sleeves.webp" alt="Lehenga Petticoat">
+                    </div>
+                    <div class="service-content">
+                        <h3>Lehenga Petticoat</h3>
+                        <p>Well-fitted petticoats for lehengas with proper flare</p>
+                        <span class="price-tag">₹400 - ₹800</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/Blue-Maggam-Work-Blouse-With-Zardozi-and-stone-work.webp" alt="Alterations">
+                    </div>
+                    <div class="service-content">
+                        <h3>Alterations & Fitting</h3>
+                        <p>Expert alterations for perfect fit - loose/tight adjustments, length changes</p>
+                        <span class="price-tag">₹200 - ₹500</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/traditional-indian-clothing-photography-festive-fashion-photography-for-indian-clothing-brands-192_orig.jpg" alt="Custom Design">
+                    </div>
+                    <div class="service-content">
+                        <h3>Custom Design Work</h3>
+                        <p>Bring your own design ideas - we'll make it happen!</p>
+                        <span class="price-tag">Price on Request</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="kurta kurti/mceu_86469568111725433066319.png" alt="Urgent Stitching">
+                    </div>
+                    <div class="service-content">
+                        <h3>Urgent/Express Stitching</h3>
+                        <p>Need it fast? We offer express stitching for urgent requirements</p>
+                        <span class="price-tag">Extra ₹200-500</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="blouse/professional-photography-for-indian-kurtis-and-lehenga-and-suits-43_orig.jpg" alt="Home Service">
+                    </div>
+                    <div class="service-content">
+                        <h3>Home Measurement Service</h3>
+                        <p>We come to your home for measurements - convenient and comfortable</p>
+                        <span class="price-tag">Free within 5km</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title">Book Your Stitching Appointment</h2>
+            <p class="section-subtitle">Contact us for perfect fitting and beautiful designs 💕</p>
+
+            <div class="quick-contact">
+                <a href="https://wa.me/917054016013?text=Hi! I want to book stitching appointment" class="quick-btn whatsapp-btn" target="_blank">
+                    💬 WhatsApp Now
+                </a>
+                <a href="tel:+917054016013" class="quick-btn call-btn">
+                    📞 Call: 70540 16013
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Divya Boutique - Stitched with Love ❤️</p>
+        <p>📞 70540 16013 | 💬 WhatsApp for Quick Response</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Open: Mon-Sat 10 AM - 8 PM | Sunday by Appointment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

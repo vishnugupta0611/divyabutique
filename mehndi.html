@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehndi Designs - Divya Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .back-nav {
+            padding: 100px 5% 20px;
+            text-align: center;
+        }
+        .back-nav a {
+            color: var(--primary-gold);
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+        .back-nav a:hover {
+            transform: translateX(-5px);
+        }
+        .mehndi-full-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+        .category-section {
+            margin-bottom: 4rem;
+        }
+        .category-title {
+            font-size: 2rem;
+            color: var(--primary-gold);
+            margin-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+        }
+        .category-title::before {
+            content: '🌸';
+            margin-right: 0.5rem;
+        }
+        .category-title::after {
+            content: '🌸';
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">DIVYA BOUTIQUE</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="mehndi.html">Mehndi</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="back-nav">
+        <a href="index.html">← Back to Home</a>
+    </div>
+
+    <section class="section">
+        <h1 class="section-title">Beautiful Mehndi Designs</h1>
+        <p class="section-subtitle">Traditional & modern henna art for every occasion 🌸</p>
+
+        <!-- Bridal Mehndi -->
+        <div class="category-section">
+            <h2 class="category-title">Bridal Mehndi</h2>
+            <div class="mehndi-full-grid">
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/bride.png" alt="Traditional Bridal Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Traditional Bridal Full Hand</h3>
+                        <p>Intricate paisley, peacock & mandala designs covering full hands and arms</p>
+                        <span class="price-tag">₹2500 - ₹4000</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/backhand.png" alt="Bridal Mehndi with Stones">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Bridal Mehndi with Stones</h3>
+                        <p>Elegant henna designs enhanced with colorful stones and glitter</p>
+                        <span class="price-tag">₹3000 - ₹5000</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/cutie.png" alt="Rajasthani Bridal Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Rajasthani Bridal Style</h3>
+                        <p>Dense traditional patterns with bride-groom motifs and detailed work</p>
+                        <span class="price-tag">₹2000 - ₹3500</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/backhand.jpeg" alt="Modern Bridal Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Modern Bridal Fusion</h3>
+                        <p>Contemporary designs mixing traditional and modern elements</p>
+                        <span class="price-tag">₹2500 - ₹4000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arabic Mehndi -->
+        <div class="category-section">
+            <h2 class="category-title">Arabic Mehndi</h2>
+            <div class="mehndi-full-grid">
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/attractive.png" alt="Bold Arabic Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Bold Arabic Patterns</h3>
+                        <p>Large flowing floral designs with leaves and vines</p>
+                        <span class="price-tag">₹800 - ₹1500</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/attractive.png" alt="Modern Arabic Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Modern Arabic Style</h3>
+                        <p>Contemporary Arabic designs with geometric elements</p>
+                        <span class="price-tag">₹1000 - ₹1800</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/minimilastic.jpeg" alt="Arabic Finger Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Arabic Finger Design</h3>
+                        <p>Elegant finger-focused patterns with bold strokes</p>
+                        <span class="price-tag">₹600 - ₹1200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Simple & Minimalist Mehndi -->
+        <div class="category-section">
+            <h2 class="category-title">Simple & Minimalist</h2>
+            <div class="mehndi-full-grid">
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/minimalist_mehndi_design_on_a_single_female (1).jpeg" alt="Minimalist Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Minimalist Design</h3>
+                        <p>Delicate thin lines with small flowers and dots</p>
+                        <span class="price-tag">₹300 - ₹600</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/minimilatic.jpeg" alt="Simple Floral Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Simple Floral</h3>
+                        <p>Easy-to-wear floral patterns for daily occasions</p>
+                        <span class="price-tag">₹400 - ₹700</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/minimilastic.jpeg" alt="Finger Tip Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Finger Tip Design</h3>
+                        <p>Subtle designs focused on fingertips and palms</p>
+                        <span class="price-tag">₹300 - ₹500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Festival & Party Mehndi -->
+        <div class="category-section">
+            <h2 class="category-title">Festival & Party</h2>
+            <div class="mehndi-full-grid">
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/festive.png" alt="Festival Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Festival Special</h3>
+                        <p>Beautiful designs perfect for Diwali, Eid, and other festivals</p>
+                        <span class="price-tag">₹700 - ₹1500</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/festive.png" alt="Party Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Party Wear Design</h3>
+                        <p>Stylish patterns for parties and celebrations</p>
+                        <span class="price-tag">₹800 - ₹1600</span>
+                    </div>
+                </div>
+
+                <div class="mehndi-card">
+                    <div class="mehndi-image">
+                        <img src="mehandi/cutie.png" alt="Glitter Mehndi">
+                    </div>
+                    <div class="mehndi-content">
+                        <h3>Glitter & Sparkle</h3>
+                        <p>Henna designs with glitter accents for special occasions</p>
+                        <span class="price-tag">₹900 - ₹1800</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title">Book Your Mehndi Appointment</h2>
+            <p class="section-subtitle">Contact us for beautiful mehndi designs 💕</p>
+
+            <div class="quick-contact">
+                <a href="https://wa.me/917054016013?text=Hi! I want to book mehndi appointment" class="quick-btn whatsapp-btn" target="_blank">
+                    💬 WhatsApp Now
+                </a>
+                <a href="tel:+917054016013" class="quick-btn call-btn">
+                    📞 Call: 70540 16013
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Divya Boutique - Stitched with Love ❤️</p>
+        <p>📞 70540 16013 | 💬 WhatsApp for Quick Response</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Open: Mon-Sat 10 AM - 8 PM | Sunday by Appointment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
